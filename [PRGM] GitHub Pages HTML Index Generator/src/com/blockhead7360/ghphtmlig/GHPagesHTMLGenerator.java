@@ -187,15 +187,6 @@ public class GHPagesHTMLGenerator {
 		dialog.setVisible(true);
 	}
 
-	public void sleep(long millis) {
-		try {
-			Thread.sleep(millis);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-
 	public static void main(String[] args) {
 		new GHPagesHTMLGenerator();
 	}
