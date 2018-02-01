@@ -30,7 +30,7 @@ public class GHPagesHTMLGenerator {
 
 		Runnable go = new Runnable() {
 			public void run() {
-				int op = JOptionPane.showOptionDialog(null, "Welcome to the GitHub Pages HTML Index Guide Generator\nVersion " + version + " by Dilan (blockhead7360.com)", "GHPHTMLIGG by Blockhead7360", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE, null, new Object[] {"Create Index Guide", "Close"}, "Create Index Guide");
+				int op = JOptionPane.showOptionDialog(null, "Welcome to the GitHub Pages HTML Index Guide Generator!\nVersion " + version + " by Dilan (blockhead7360.com)", "GHPHTMLIGG by Blockhead7360", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE, null, new Object[] {"Create Index Guide", "Close"}, "Create Index Guide");
 				if (op == JOptionPane.YES_OPTION) 
 					findFolder();
 				else System.exit(0);   
